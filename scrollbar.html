@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ul=document.createElement("ul")
+
+        var li1=document.createElement("li")
+        var li2=document.createElement("li")
+        var li3=document.createElement("li")
+        var li4=document.createElement("li")
+//add text data to the created Html element
+        li1.textContent="js "
+        li2.textContent="java"
+        li3.textContent="react"
+        li4.textContent="node js"
+
+        //add elemet inside the ul element
+        ul.appendChild(li1)
+        ul.appendChild(li2)
+        ul.appendChild(li3)
+        ul.appendChild(li4)
+        console.log(ul)
+        //add the created element to the web browser
+    document.body.appendChild(ul)
+    </script>
+</body>
+</html>
